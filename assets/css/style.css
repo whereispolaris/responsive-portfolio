@@ -153,6 +153,32 @@ button {
     border: none;
 }
 
+/* ##### MEDIA QUERIES ###### */
 
+@media screen and (max-width: 980px) {
+    /* body {
+        background: red;
+    } */
+    .main-content {
+        width: 90%;
+    }
+}
 
+@media screen and (max-width: 768px) {
+    /* body {
+        background: yellow;
+        z-index: 100;
+    } */
+    .main-content {
+        width: 90%;
+    }
+}
 
+@media screen and (max-width: 640px) {
+    /* body {
+        background: green;
+    } */
+    .main-content {
+        width: 90%;
+    }
+}
