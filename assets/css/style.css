@@ -92,6 +92,7 @@ nav {
     margin-top: 20px;
     /* Sticky Footer */
     min-height: 100%;
+    overflow: auto;
 }
 
 #home {
@@ -162,6 +163,15 @@ button {
     .main-content {
         width: 90%;
     }
+    nav {
+        width: 90%;
+    }
+    /* .portfolio-items {
+        margin: 0 50px;
+    } */
+    .portfolio-image {
+        padding: 76px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -172,6 +182,10 @@ button {
     .main-content {
         width: 90%;
     }
+    nav {
+        width: 90%;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
@@ -179,6 +193,9 @@ button {
         background: green;
     } */
     .main-content {
+        width: 90%;
+    }
+    nav {
         width: 90%;
     }
 }
