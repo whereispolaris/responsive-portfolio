@@ -154,6 +154,9 @@ button {
     border: none;
 }
 
+
+
+
 /* ##### MEDIA QUERIES ###### */
 
 @media screen and (max-width: 980px) {
@@ -172,6 +175,13 @@ button {
     .portfolio-image {
         padding: 76px;
     }
+
+    label,
+    input,
+    textarea {
+        width: 97%;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -181,6 +191,15 @@ button {
     } */
     .main-content {
         width: 90%;
+    }
+
+    label,
+    input,
+    textarea {
+        width: 94%;
+    }
+    textarea {
+        height: 250px;
     }
 }
 
