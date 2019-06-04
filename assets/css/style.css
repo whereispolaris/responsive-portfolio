@@ -59,8 +59,8 @@ h2 {
     color: #666666;
 }
 
-nav .menu { 
-    text-align:right 
+nav { 
+    position: relative;
 }
 
 li {
@@ -69,7 +69,9 @@ li {
 
 ul {
     float: right;
-    clear: both;
+    position: absolute;
+    right: 25px;
+    top: 11px;
 }
 
 .menu:hover {
@@ -153,6 +155,9 @@ textarea {
     font-size: 18px;
 }
 
+textarea {
+    height: 250px;
+}
 input,
 textarea {
     border: 1px solid #dddddd;
@@ -212,9 +217,6 @@ button {
     textarea {
         width: 94%;
     }
-    textarea {
-        height: 250px;
-    }
 }
 
 @media screen and (max-width: 640px) {
@@ -228,6 +230,8 @@ button {
         margin: 0;
         text-align: center;
         height: 134px;
+        position: unset;
+        float: unset;
     }
 
     h1 {
