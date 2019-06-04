@@ -39,6 +39,18 @@ h2 {
     border-bottom: 3px solid #dddddd;
 }
 
+.main-content {
+    background: #ffffff;
+    width: 920px;
+    margin: 0 auto;
+    clear: both;
+    padding: 20px;
+    margin-top: 20px;
+    /* Sticky Footer */
+    height: 100%;
+    overflow: auto;
+}
+
 .menu {
     float: right; 
     text-decoration: none;
@@ -63,11 +75,6 @@ header {
     
 }
 
-/* .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  } */
 /* Regular font color (used for paragraphs and all text besides the headings): #777777 */
 p {
     color: #777777;
@@ -86,18 +93,6 @@ nav {
     width: 960px;
     margin: 0 auto;
     padding: 20px;
-}
-
-.main-content {
-    background: #ffffff;
-    width: 920px;
-    margin: 0 auto;
-    clear: both;
-    padding: 20px;
-    margin-top: 20px;
-    /* Sticky Footer */
-    min-height: 100%;
-    overflow: auto;
 }
 
 #home {
@@ -187,10 +182,6 @@ button {
     .main-content {
         width: 90%;
     }
-    nav {
-        width: 90%;
-    }
-
 }
 
 @media screen and (max-width: 640px) {
