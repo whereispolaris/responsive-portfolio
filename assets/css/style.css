@@ -52,11 +52,25 @@ h2 {
 }
 
 .menu {
-    float: right; 
+    /* float: right;  */
     text-decoration: none;
     padding-left: 10px;
     padding-top: 5px;
     color: #666666;
+}
+
+nav .menu { 
+    text-align:right 
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    float: right;
+    display: inline;
+    clear: both;
 }
 
 .menu:hover {
@@ -97,6 +111,7 @@ nav {
 
 #home {
     text-decoration: none;
+    display: inline;
 }
 
 #profile-photo {
@@ -207,7 +222,8 @@ button {
     .main-content {
         width: 90%;
     }
-    nav {
+    nav,
+    ul {
         width: 100%;
         padding: 0;
         margin: 0;
